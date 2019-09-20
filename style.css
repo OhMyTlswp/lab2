@@ -28,7 +28,8 @@ form {
   border-color: rgb(178, 197, 209);
   border-width: 0.08vmax;
   border-style: solid;
-  width: 80%;
+  width: 9vmax;
+  font-size: 1vmax;
   outline-width: 0.3vmax;
   outline-color: rgb(139, 154, 163);
   height: 1.2vmax;
@@ -38,7 +39,7 @@ span {
   display: flex;
 }
 textarea {
-  width: 90%;
+  width: 20vmax;
   resize: none;
   height: 5vmax;
   border-color: rgb(178, 197, 209);
