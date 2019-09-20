@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="ru">
-<meta charset="utf-8">
 
 <head>
-
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+  <title>Lab</title>
 </head>
 
 <body>
-  <form>
-    <p>Фамилия:</p>
-    <input type="text" placeholder="Фамилия" pattern="[А-Я,а-я]" required>
-    <p>Имя:</p>
-    <input type="text" placeholder="Имя" pattern="[А-Я,а-я]" required>
-    <p>Email:</p>
-    <input type="email" placeholder="Emalу@my.com" required>
-    <p>Город:</p>
-    <input type="text" placeholder="Город" maxlength="30" pattern="[А-Я,а-я]" required>
-    <p>Номер:</p>
-    <input type="tel" placeholder="+798 276 251 25" pattern="\+7[0-9]{9}" maxlength="11" required>
-    <p>Примечание:</p>
-    <textarea type="text" maxlength="350"></textarea>
-    <p>Получать смс:</p>
-    <input type="checkbox">
-    <input type="submit" value="Заказать">
-  </form>
+  <div class="main-block">
+    <form>
+      <div class="inline">
+        <div class="text-block">
+          <p>Фамилия:</p>
+          <input type="text" class="input-top" placeholder="Фамилия" pattern="[А-Яа-яЁё]+$" required>
+        </div>
+        <div class="text-block">
+          <p>Имя:</p>
+          <input type="text" class="input-top" placeholder="Имя" pattern="[А-Яа-яЁё]+$" required>
+        </div>
+      </div>
+      <div class="inline">
+        <div class="text-block">
+          <p>Email:</p>
+          <input type="email" class="input-top" placeholder="Emalу@my.com" required>
+        </div>
+        <div class="text-block">
+          <p>Номер:</p>
+          <input type="tel" class="input-top" placeholder="+798 276 251 25" pattern="\+7[0-9]{9}" maxlength="11"
+            required>
+        </div>
+      </div>
+      <p>Город:</p>
+      <input type="text" class="input-top" placeholder="Город" maxlength="30" pattern="[А-Яа-яЁё]+$" required>
+      <p>Примечание:</p>
+      <textarea maxlength="350"></textarea>
+      <p>Получать смс:<input class="check" type="checkbox"></p>
+      <div class="block-submit"><input class="submit" type="submit" value="Заказать"></div>
+    </form>
+  </div>
 </body>
 
 </html>

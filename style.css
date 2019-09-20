@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 251, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 1.2vmax;
+  color: rgba(12, 12, 12, 0.767)
+}
+.main-block {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  width: 30vmax;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+  height: 35vmax;
+  align-items: center;
+  border-radius: 2%;
+}
+.text-block {
+  width: 100%;
+}
+.inline {
+  display: flex;
+}
+form {
+}
+.input-top {
+  border-color: rgb(178, 197, 209);
+  border-width: 0.08vmax;
+  border-style: solid;
+  width: 80%;
+  outline-width: 0.3vmax;
+  outline-color: rgb(139, 154, 163);
+  height: 1.2vmax;
+  background-color: aliceblue;
+}
+span {
+  display: flex;
+}
+textarea {
+  width: 90%;
+  resize: none;
+  height: 5vmax;
+  border-color: rgb(178, 197, 209);
+  border-width: 0.08vmax;
+  border-style: solid;
+  outline-width: 0.3vmax;
+  outline-color: rgb(139, 154, 163);
+  background-color: aliceblue;
+}
+.check {
+  width: 1vmax;
+  height: 1vmax;
+}
+.block-submit {
+  display: flex;
+  justify-content: center;
+}
+.submit {
+  border-color: rgb(223, 223, 223);
+  border-width: 0.1vmax;
+  border-style: solid;
+  width: 60%;
+  border-radius: 5%;
+  outline-color: rgb(139, 154, 163);
+  height: 2vmax;
+  background-color: rgba(0, 0, 0, 0.075);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 1.2vmax;
+  font-weight: 600;
+  color: rgba(12, 12, 12, 0.671);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
