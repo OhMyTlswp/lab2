@@ -90,10 +90,10 @@ input {
   padding:0 2%;
   border-radius: 0.5vmax;
 }
-.comment h4{
+.comment h4 {
   margin: 3% 0;
 }
-.comment p{
+.comment p {
   margin-top:0;
 }
 .comment-id {
