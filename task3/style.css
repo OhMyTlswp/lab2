@@ -10,13 +10,14 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 3vmax;
 }
 .menu {
   height: 100px;
   margin-left: 0.5%;
 }
 .menu button {
-  width: 150%;
+  width: 200%;
   height: 6vmax;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,16 +27,20 @@ body {
   margin-bottom: 1vmax;
   margin-top: 0.5vmax;
   cursor: pointer;
-  background-color: rgb(31, 31, 31);
+  border-radius: 7px;
+  background-color: rgb(17, 17, 17);
   color: rgb(255, 255, 255);
+  transition-duration: .3s;
 }
 .menu button:hover {
   background-color: rgb(214, 22, 22);
   transform: scale(1.02);
+  border-radius: 5px;
 }
 iframe {
   width: 50%;
   height: 28vmax;
+  border:0;
 }
 .comment-block {
   width:50%;
@@ -48,9 +53,9 @@ textarea {
   border-color: rgb(178, 197, 209);
   border-width: 0.08vmax;
   border-style: solid;
-  outline-width: 0.3vmax;
-  outline-color: rgb(139, 154, 163);
+  outline: none;
   background-color: aliceblue;
+  border-radius: 7px;
 }
 .submit {
   border-color: rgba(46, 46, 46, 0.048);
@@ -79,10 +84,10 @@ input {
   border-style: solid;
   width: 70%;
   font-size: 1vmax;
-  outline-width: 0.3vmax;
-  outline-color: rgb(139, 154, 163);
+  outline: none;
   height: 1.8vmax;
   background-color: aliceblue;
+  border-radius: 7px;
 }
 .comment {
   width: 50%;
@@ -101,4 +106,9 @@ input {
 }
 .comment-id-none {
   display: none;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.253);
 }
