@@ -13,7 +13,6 @@ body {
   margin-top: 3vmax;
 }
 .menu {
-  height: 100px;
   margin-left: 0.5%;
 }
 .menu button {
@@ -37,12 +36,12 @@ body {
   transform: scale(1.02);
   border-radius: 5px;
 }
-iframe {
+.main iframe {
   width: 50%;
   height: 28vmax;
   border:0;
 }
-.comment-block {
+.comment-main {
   width:50%;
   height: 50vmax;
 }
@@ -101,10 +100,10 @@ input {
 .comment p {
   margin-top:0;
 }
-.comment-id {
+.comment-block {
   display: block;
 }
-.comment-id-none {
+.none {
   display: none;
 }
 .line {
