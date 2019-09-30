@@ -1,17 +1,21 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: rgb(246, 251, 255);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  background-color: rgb(29, 29, 29);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.2vmax;
-  color: rgba(12, 12, 12, 0.767)
+  color: rgba(12, 12, 12, 0.767);
+  height: 100vh;
 }
 .main-block {
+  border-radius: 1vmax;
   display: flex;
-  width: 30vmax;
+  width: 25vmax;
   justify-content: center;
-  height: 35vmax;
+  height: 32vmax;
   align-items: center;
+  background-color: rgb(238, 247, 255);
+  overflow: hidden;
 }
 .text-block {
   width: 100%;
@@ -20,21 +24,22 @@ body {
   display: flex;
 }
 .input-top {
-  border-color: rgb(207, 207, 207);
-  border-width: 0.08vmax;
-  border-style: solid;
+  border:none;
+  border-bottom-color: rgba(0, 0, 0, 0.068);
+  border-bottom-width: 0.1vmax;
+  border-bottom-style: solid;
   width: 9vmax;
   font-size: 1vmax;
   outline: none;
   height: 1.2vmax;
   background-color: aliceblue;
-  border-radius: 1vmax;
-  padding-left: 5%;
+  padding-left: 0.6vmax;
 }
 .main-block span {
   display: flex;
 }
 .main-block textarea {
+  font-size: 1vmax;
   width: 20vmax;
   resize: none;
   height: 5vmax;
@@ -44,7 +49,10 @@ body {
   outline: none;
   background-color: aliceblue;
   border-radius: 1vmax;
+  padding-top: 0.5vmax;
   padding-left: 2.5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1vmax;
 }
 .block-submit {
   display: flex;
@@ -53,12 +61,12 @@ body {
 .submit {
   margin-top: 1vmax;
   border:none;
-  width: 60%;
+  width: 100%;
   border-radius: 0.5vmax;
   outline: none;
   height: 2vmax;
   background-color: rgb(110, 149, 235);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.2vmax;
   font-weight: 600;
   color: rgb(255, 255, 255);
