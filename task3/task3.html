@@ -12,12 +12,10 @@
   <div class="main">
     <iframe src="https://www.youtube.com/embed/7wB2GVWodiA"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div id="men" class="menu">
-    </div>
-  </div>
   <div class="comment-main">
     <h3>Комментарии</h3>
     <div class="line"></div>
+    <h4 class="comment-block none">Нет комментариев...</h4>
     <div class="comment-block">
       <div class="comment">
         <h4>Parw21</h4>
@@ -62,15 +60,18 @@
         <p>Что это?</p>
       </div>
     </div>
+    <div class="line"></div>
     <form>
       <h3>Оставить комментарий</h3>
-      <div class="line"></div>
       <p>Имя пользователя</p>
-      <input type="text" placeholder="name" maxlength="30" pattern="[A-Za-z]+$" required>
+      <input class="comment-form" type="text" placeholder="name" maxlength="30" pattern="[A-Za-z]+$" required>
       <p>Комментарий</p>
-      <textarea maxlength="350"></textarea>
+      <textarea maxlength="350" required></textarea>
       <input class="submit" type="submit" value="Отправить">
     </form>
+  </div>
+</div>
+<div id="video-block" class="menu">
   </div>
   <script src="script.js"></script>
 </body>
