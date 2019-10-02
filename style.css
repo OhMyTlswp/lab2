@@ -1,13 +1,15 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: rgb(29, 29, 29);
+  background-color: rgba(0, 0, 0, 0.158);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.2vmax;
   color: rgba(12, 12, 12, 0.767);
   height: 100vh;
+  user-select: none;
 }
 .main-block {
+  z-index: 100;
   border-radius: 1vmax;
   display: flex;
   width: 25vmax;
