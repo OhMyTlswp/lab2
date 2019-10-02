@@ -1,7 +1,7 @@
 var myIframe = document.getElementsByTagName('iframe'),
 comment = document.querySelectorAll('div.comment-block'),
 noComment = document.querySelectorAll('h4.comment-block');
-let link = ['https://www.youtube.com/embed/7wB2GVWodiA', 'https://www.youtube.com/embed/Fssfi8ziVdw', 'https://www.youtube.com/embed/fhXQzPDO8d0', 'https://www.youtube.com/embed/vhaqnndhGRw', 'https://www.youtube.com/embed/Fssfi8ziVdw'];
+let link = ['https://www.youtube.com/embed/7wB2GVWodiA', 'https://www.youtube.com/embed/Fssfi8ziVdw', 'https://www.youtube.com/embed/fhXQzPDO8d0', 'https://www.youtube.com/embed/vhaqnndhGRw'];
 for (let a = 0; a < link.length; a++) {
   var btn = document.createElement('button');
   document.getElementById('video-block').appendChild(btn);

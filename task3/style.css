@@ -105,6 +105,9 @@ body {
 .comment-block {
   display: block;
 }
+h4.comment-block {
+  opacity: 0.5;
+}
 .none {
   display: none;
 }
